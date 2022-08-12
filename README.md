@@ -1,10 +1,8 @@
 # Boutique-Management-Project
-It is a management system that provides a common platform for customers,employees and employer to access the services.
+This is a boutique management system made using MySQL connectivity with Python. It uses a MySQL database to store data in the form of tables and to maintain a proper record of all details. Different MySQL queries that include DML (Data Manipulation Language) commands are used in this project which is useful to perform CRUD (Create, Read, Update, Delete) operations. This management system provides a common platform for customers, employees, as well employers to use the services. The various functionalities provided in this system are:
 
-I have used database named sboutique which is used to store data and perform other operations.
+Customers: Customer can create their accounts, sign in to their accounts and perform various operations such as book their orders, view booking, delete bookings and update their details.
 
-It allows customers to create/sign in to their account and see/book/cancel products and appointments as well as delete their account.
+Employees: Employees can sign in to their account using their employee id and perform operations such as updating delivered orders of customers, adding a new product, and deleting a product.
 
-Employees can login to their accounts to check and update their bookings and appointments.
-
-Employers can add new products, view/update product details and add/remove employees.
+Employer: The employer can perform two operations which are viewing product details and adding a new employee.
